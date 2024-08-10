@@ -19,8 +19,8 @@ from typing import Literal
 from langchain_core.messages import BaseMessage
 
 
-os.environ["GOOGLE_CSE_ID"] = "d4436d4c98ea04cd0"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyClXFAbIUYFtrzONLVm2-mB9mc8VtHfw_o"
+os.environ["GOOGLE_CSE_ID"] = "sjsflfjlsjff"
+os.environ["GOOGLE_API_KEY"] = "mB9mc8VtHfw_o"
 
 search = GoogleSearchAPIWrapper()
 tool = Tool(
